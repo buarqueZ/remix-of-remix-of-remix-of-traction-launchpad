@@ -192,7 +192,7 @@ const Contact = () => {
     };
 
     try {
-      await fetch("https://auto.zendry.com/webhook/16e8296f-acf3-400e-ba69-13fcc87ac876", {
+      await fetch("https://auto.zendry.com/webhook/traction-site", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
